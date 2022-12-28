@@ -1,8 +1,6 @@
 .task {
   display: flex;
   align-items: flex-start;
-  max-width: 45rem;
-  margin: auto;
   background: var(--gray-500);
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
   padding: 1rem;
