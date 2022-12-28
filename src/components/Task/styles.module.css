@@ -1,0 +1,59 @@
+.task {
+  display: flex;
+  align-items: flex-start;
+  max-width: 45rem;
+  margin: auto;
+  background: var(--gray-500);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+  padding: 1rem;
+  border-radius: 8px;
+  gap: 0.75rem;
+}
+
+.task + .task {
+  margin-top: 0.75rem;
+}
+
+.lineThrough {
+  text-decoration: line-through;
+  color: var(--gray-300);
+}
+
+.task > span {
+  width: 100%;
+}
+
+.task > button {
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.checkIcon,
+.circleIcon {
+  border-radius: 999px;
+}
+
+.checkIcon {
+  background: var(--purple-200) !important;
+}
+
+.circleIcon {
+  box-sizing: border-box;
+  border: 2px solid var(--blue-200) !important;
+}
+
+.trashIcon {
+  color: var(--gray-300);
+}
+
+.trashIcon:hover {
+  color: var(--red-200);
+  background: var(--gray-400);
+  border-radius: 5px;
+}

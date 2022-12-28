@@ -7,12 +7,16 @@ import { Header } from './components/Header';
 
 const App: React.FC = () => {
   return (
-    <div>
+    <div className={styles.container}>
       <Header />
 
-      <Task />
+      <main>
+        <Details />
 
-      <Details />
+        <Task id={1} isConcluded={true} />
+
+        <Task id={2} isConcluded={false} />
+      </main>
     </div>
   );
 };

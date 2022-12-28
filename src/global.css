@@ -13,15 +13,15 @@
   --purple-100: #8284fa;
   --purple-200: #5e60ce;
 
-  ---blue-100: #4ea8de;
-  ---blue-200: #1e6f9f;
+  --blue-100: #4ea8de;
+  --blue-200: #1e6f9f;
 
-  ---red-200: #e25858;
+  --red-200: #e25858;
 }
 
 :focus {
   outline: transparent;
-  box-shadow: 0 0 0 2px var(--blue-200);
+  box-shadow: 0 0 0 1px var(--blue-200);
 }
 
 * {
@@ -33,7 +33,6 @@
 
 body {
   background: var(--gray-600);
-  color: var(--gray-100);
   --webkit-font-smoothing: antialiased;
 }
 
@@ -44,8 +43,10 @@ button {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 1rem;
+  color: var(--gray-100);
 }
 
 button {
   line-height: 0;
+  cursor: pointer;
 }

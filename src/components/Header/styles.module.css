@@ -1,0 +1,50 @@
+.header {
+  background-color: var(--gray-700);
+  height: 12.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 0 0;
+}
+
+.header > img {
+  width: 8rem;
+}
+
+.header > form {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  transform: translateY(50%);
+  width: 100%;
+  max-width: 46rem;
+  gap: 0.5rem;
+}
+
+.header > form > input {
+  width: 100%;
+  height: 3.375rem;
+  padding: 0 1rem;
+  border-radius: 8px;
+  background: var(--gray-500);
+  border: 1px solid var(--gray-700);
+}
+
+.header > form > input::placeholder {
+  color: var(--gray-300);
+}
+
+.header > form > button {
+  display: flex;
+  align-items: center;
+  height: 3.375rem;
+  padding: 0 1rem;
+  white-space: nowrap;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--blue-200);
+}
+
+.header > form > button:hover {
+  background-color: var(--blue-100);
+}

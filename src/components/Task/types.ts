@@ -1,1 +1,4 @@
-export interface TaskProps {}
+export interface TaskProps {
+  id: number;
+  isConcluded: boolean;
+}

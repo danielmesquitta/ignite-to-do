@@ -1,0 +1,30 @@
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 45rem;
+  margin: auto;
+  padding: 5rem 0 1.5rem;
+}
+
+.details > strong {
+  font-size: 0.875rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.details > strong > span {
+  border-radius: 999px;
+  padding: 0.125rem 0.5rem;
+  background-color: var(--gray-400);
+}
+
+.createdTasks {
+  color: var(--blue-100);
+}
+
+.concludedTasks {
+  color: var(--purple-100);
+}
